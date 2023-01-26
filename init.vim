@@ -14,3 +14,5 @@ set termguicolors
 " let ayucolor="dark"
 let ayucolor="mirage"
 colorscheme ayu
+
+map <silent> <C-n> :NERDTreeToggle<CR>
