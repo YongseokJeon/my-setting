@@ -1,0 +1,8 @@
+if [ -f /etc/bashrc ]; then
+  . /etc/bashrc
+fi
+
+export SHELL="path to new shell"
+alias zsh="path to new shell"
+
+exec "path to new shell"
