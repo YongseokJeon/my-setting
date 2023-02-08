@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 alias :q="exit"
 alias ggrep="git grep -rn --head --break "
 alias cdw="cd ~/workspace"
+alias flush_feature_branch="git branch | grep -E '^  feature' | xargs git branch -D"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
