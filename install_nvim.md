@@ -31,3 +31,19 @@ Vim 대신 다들 NVIM (NeoVIM) 을 쓰고 있더라.
 vim-plug 설치 https://github.com/junegunn/vim-plug
 
 플러그인 쓰는건 더 배워야겠다
+
+# CoC
+
+- node.js 가 필요하니 설치가 필요함
+- `:CocInstall <LSP server>`
+  - Example. `:CocInstall coc-clangd`
+
+## C
+
+- clangd 를 제대로 쓰기 위해서는
+https://clangd.llvm.org/installation.html#project-setup
+
+- CoC autocomplete
+  - next: Ctrl-n
+  - prev: Ctrl-p
+  - select: Ctrl-y
