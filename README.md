@@ -7,6 +7,7 @@ This repository is preset config file storage for me.
 - vimrc
 - init.vim
 - zshrc
+- Windows powershell profile
 
 # NVIM
 
