@@ -11,3 +11,6 @@ Set-Alias -Name gl -Value git-log
 
 function git-submodule-update { git submodule update $args }
 Set-Alias -Name gsu -Value git-submodule-update
+
+function git-add-all { git add --all }
+Set-Alias -Name gaa -Value git-add-all
