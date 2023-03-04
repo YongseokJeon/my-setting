@@ -17,3 +17,6 @@ Set-Alias -Name gaa -Value git-add-all
 
 function git-status { git status }
 Set-Alias -Name gst -Value git-status
+
+function cd-workspace { cd ~/workspace }
+Set-Alias -Name cdw -Value cd-workspace
