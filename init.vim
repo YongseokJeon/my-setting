@@ -26,8 +26,8 @@ Plug 'neoclide/coc.nvim'
 call plug#end()
 
 set termguicolors
-" let ayucolor="light"
-" let ayucolor="dark"
+"let ayucolor="dark"
+"let ayucolor="light"
 let ayucolor="mirage"
 colorscheme ayu
 
