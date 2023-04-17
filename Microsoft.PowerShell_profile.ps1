@@ -9,6 +9,9 @@ Set-Alias -Name gco -Value git-checkout
 function git-log { git log }
 Set-Alias -Name gl -Value git-log
 
+function git-log-oneline { git log --oneline }
+Set-Alias -Name glo -Value git-log-oneline
+
 function git-submodule-update { git submodule update $args }
 Set-Alias -Name gsu -Value git-submodule-update
 
@@ -20,6 +23,8 @@ Set-Alias -Name gst -Value git-status
 
 function git-diff-cached { git diff --cached }
 Set-Alias -Name gdca -Value git-diff-cached
+
+
 
 function cd-workspace { cd ~/workspace }
 Set-Alias -Name cdw -Value cd-workspace
